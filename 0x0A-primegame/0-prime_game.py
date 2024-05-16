@@ -1,4 +1,3 @@
-
 #!/usr/bin/python3
 """Prime game module.
 """
@@ -26,4 +25,4 @@ def isWinner(x, nums):
         marias_wins += primes_count % 2 == 1
     if marias_wins == bens_wins:
         return None
-    return 'Maria' if marias_wins > bens_wins else 'Ben'
+    return 'Maria' if marias_wins > bens_wins else 'Ben
